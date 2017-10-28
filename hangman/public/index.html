@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    
+    <div id="root"></div>
+    <div class="container">
+      
+          <div class="jumbotron">
+            <h1>Hangman Game</h1>
+              <h2>No stick figures were injured in the making of this game</h2>
+               <h3>The 8 major characters in Hateful8 </h3>
+           </div>
+      
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Word to guess: </h3>
+        </div>
+        <div class="panel-body">
+          <h2 id="wordToGuess">_ _ _ _ _ </h2>
+        </div>
+      </div>
+      
+        <div class="panel panel-default">
+          <div class="panel-body">
+            Wrong Guesses: <span id="wrongGuesses"></span>
+          </div>
+        </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Guesses Left: <span id="numGuesses">9</span>
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Win Counter: <span id="winCounter">0</span>
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-body">
+          Loss Counter: <span id="lossCounter">0</span>
+        </div>
+      </div>
+      
+      </div>
+      
+      
+  </body>
+</html>
