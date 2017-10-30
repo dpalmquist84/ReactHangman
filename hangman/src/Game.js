@@ -62,6 +62,7 @@ function checkLetters(letter) {
 else {
   wrongLetters.push(letter);
   guessesLeft--;
+  console.log(guessesLeft)
 }
  console.log(blanksAndSuccesses);
   
