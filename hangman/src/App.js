@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './Game.js'
+
+
+
 
 class App extends Component {
   render() {
@@ -13,7 +17,8 @@ class App extends Component {
         
       </div>
     );
+  };
   }
-}
+
 
 export default App;
