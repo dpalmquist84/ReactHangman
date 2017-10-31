@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './Game.js'
-
+import './Game.js';
+// import bootstrap from 'bootstrap';
 
 
 
